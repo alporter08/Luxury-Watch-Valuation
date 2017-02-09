@@ -1,0 +1,7 @@
+Accept-Language: en
+Accept-Encoding: gzip,deflate
+X-Proxymesh-Timeout: 60
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36
+Referer: http://www.chrono24.com/Panerai/index.htm
+Cookie: isNotFirstAlertRequest=true; chronosessid=342fe2e8-e500-40c5-a2d5-8f8528f09974; hideChangeDomainHintCount=1; last-search-result-ids="4306910,5682973,5371499,4294704,5468157,3119691,5226639,5453148,4896616,5018422,5452946,5683286,5707423,4906474,5649448,2786963,4680276,5628337,5641693,5272299,5619928,2503996,3854531,4770184,4718133,5487805,5587802,4913139,5594345,5689969"; cookieHintShown=true

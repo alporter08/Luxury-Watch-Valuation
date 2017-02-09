@@ -27,13 +27,13 @@ class WatchbotSpider(scrapy.Spider):
         # follow pagination links
         pages = response.xpath('//ul[@class="pagination inline pull-xs-none pull-sm-right"]')[-1]
         last_page_str = pages.xpath('.//li//text()').extract()[-2].strip()
-        max_pages = 100
+        max_pages = 300
         if last_page_str != '':
             last_page_int = int(last_page_str)
             if last_page_int > max_pages:
                 last_page_int = max_pages
 
-            for i in range(last_page_int + 1):
+            for i in range(201, last_page_int + 1):
                 i = str(i)
                 url_stub = 'index-{}.htm'.format(i)
                 next_page = response.urljoin(url_stub)

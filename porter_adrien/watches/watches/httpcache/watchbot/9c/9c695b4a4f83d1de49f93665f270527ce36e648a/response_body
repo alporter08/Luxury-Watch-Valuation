@@ -1,0 +1,19 @@
+<html xml:lang="en" lang="en" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Access denied - Chrono24</title>
+<style type="text/css">
+  body {
+    background: #cbdde5;
+  }
+  img {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    margin: -226px 0 0 -356px;
+  }
+</style>
+</head>
+<body>
+<a href="http://www.chrono24.com" target="_top"><img src="/images/error403.gif" alt="" /></a>
+</body>
+</html>

@@ -27,7 +27,7 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 1
 # The download delay setting will honor only one of:
 CONCURRENT_REQUESTS_PER_DOMAIN = 1
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -103,3 +103,6 @@ PROXYMESH_URL = 'http://fr.proxymesh.com:31280'
 
 # Proxymesh request timeout
 PROXYMESH_TIMEOUT = 60
+
+LOG_STDOUT = True
+LOG_FILE = '/home/adrienporter/McNulty/porter_adrien/watches/watches/logs/scrapy_output2.txt'

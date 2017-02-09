@@ -1,0 +1,7 @@
+Accept-Language: en
+Accept-Encoding: gzip,deflate
+X-Proxymesh-Timeout: 60
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36
+Referer: http://www.chrono24.com/Breitling/index-199.htm
+Cookie: userHistory=5565622|1486571683278; last-search-result-ids="4813145,3530401,4252027,5016807,5017540,5113411,5453620,4951622,3365848,4526902,4821797,3455050,5714443,5651517,3648831,5641287,5252715,3711731,5530037,5263427,3778557,5663473,5467644,4850825,2513941,5366418,4628337,3551915,5660733,5021228"; chronosessid=b4590ed5-c899-4dce-856d-9c77da24fbb1; isNotFirstAlertRequest=true; cookieHintShown=true; hideChangeDomainHintCount=2

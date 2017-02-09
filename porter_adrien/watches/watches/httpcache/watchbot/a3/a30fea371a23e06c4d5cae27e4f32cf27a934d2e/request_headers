@@ -1,0 +1,7 @@
+Accept-Language: en
+Accept-Encoding: gzip,deflate
+X-Proxymesh-Timeout: 60
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36
+Referer: http://www.chrono24.com/PatekPhilippe/index-100.htm
+Cookie: userHistory=4831067|1486484315587; last-search-result-ids="5297128,5609799,5600515,5711558,4766053,5494252,3708385,4661926,5682873,3896537,5475190,5550671,2588855,4741385,4867828,5652757,3781166,5724239,4896381,5695285,1610165,5487874,5695245,5493931,3185235,5695237,4524039,2883693,5707746,3645923"; chronosessid=93a0e3b1-8d68-41af-afb2-6d61768ae458; isNotFirstAlertRequest=true; cookieHintShown=true; hideChangeDomainHintCount=2
