@@ -3,3 +3,6 @@
 
 # ignore httpcache
 /porter_adrien/watches/watches/httpcache
+
+# ignore ipynb checkpoints
+.ipynb_checkpoints
