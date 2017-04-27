@@ -1,0 +1,385 @@
+2017-02-10 20:58:39 [scrapy.utils.log] INFO: Scrapy 1.3.0 started (bot: watches)
+2017-02-10 20:58:39 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'watches.spiders', 'HTTPCACHE_POLICY': 'scrapy.extensions.httpcache.RFC2616Policy', 'CONCURRENT_REQUESTS_PER_DOMAIN': 1, 'HTTPCACHE_IGNORE_HTTP_CODES': ['403'], 'SPIDER_MODULES': ['watches.spiders'], 'HTTPCACHE_ENABLED': True, 'LOG_FILE': '/home/adrienporter/McNulty/proj3-mcnulty/porter_adrien/watches/watches/logs/scrapy_output5.txt', 'BOT_NAME': 'watches', 'LOG_STDOUT': True, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36', 'HTTPCACHE_DIR': '/home/adrienporter/McNulty/proj3-mcnulty/porter_adrien/watches/watches/httpcache', 'AUTOTHROTTLE_ENABLED': True, 'DOWNLOAD_DELAY': 1}
+2017-02-10 20:58:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2017-02-10 20:58:39 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scproxymesh.SimpleProxymeshMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats',
+ 'scrapy.downloadermiddlewares.httpcache.HttpCacheMiddleware']
+2017-02-10 20:58:39 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-02-10 20:58:39 [scrapy.middleware] INFO: Enabled item pipelines:
+['watches.pipelines.CsvWriterPipeline']
+2017-02-10 20:58:39 [scrapy.core.engine] INFO: Spider opened
+2017-02-10 20:58:39 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-02-10 20:58:39 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-02-10 20:58:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Rolex/index.htm> (referer: None)
+2017-02-10 20:58:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Omega/index.htm> (referer: None) ['partial']
+2017-02-10 20:58:44 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-02-10 20:58:44 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-02-10 20:58:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/IWC/index.htm> (referer: None)
+2017-02-10 20:58:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Breitling/index.htm> (referer: None)
+2017-02-10 20:58:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/PatekPhilippe/index.htm> (referer: None)
+2017-02-10 20:58:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/AudemarsPiguet/index.htm> (referer: None)
+2017-02-10 20:58:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Panerai/index.htm> (referer: None)
+2017-02-10 20:58:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/JaegerLeCoultre/index.htm> (referer: None)
+2017-02-10 20:58:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/TagHeuer/index.htm> (referer: None)
+2017-02-10 20:58:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Hublot/index.htm> (referer: None)
+2017-02-10 20:58:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/daytona-2-tone--id5128706.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 20:58:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/daytona-2-tone--id5128706.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Dial': u'Silver', u'Thickness': u'11.2 mm', u'Dial numerals': u'Arabic numerals', u'Small Seconds, Luminescent Numerals, Luminescent Hands, Screw-Down Crown, Screw-Down Push-Buttons, Luminous indexes': u'Small Seconds, Luminescent Numerals, Luminescent Hands, Screw-Down Crown, Screw-Down Push-Buttons, Luminous indexes', u'Location': u'United States, New York, massapequa', u'Material bezel': u'Yellow gold', u'Movement': u'Automatic', u'Ref. No.': u'116523', u'Waterproof': u'10 ATM', u'Brand': u'Rolex', u'Glass': u'Sapphire Glass', u'Condition': u'0 (unworn)', u'Chronograph': u'Chronograph', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Gold/Steel', u'Case material': u'Gold/Steel', u'Price': u'$12,700', u'Case diameter': u'40 mm', u'Bracelet color': u'Gold/Steel', 'url': 'http://www.chrono24.com/rolex/daytona-2-tone--id5128706.htm', u'Movement/Caliber': u'Rolex 4130', u'Clasp material': u'Gold/Steel', u'Frequency': u'28,800 A/h', u'Clasp': u'Fold clasp', u'Year': u'2011', u'Number of jewels': u'44', u'Availability': u'Ready to ship in 3-5 days'})
+2017-02-10 20:58:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/116622-yacht-master-ss-rhodium-dial--platinum-bezel-25339--id5746983.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 20:58:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/116622-yacht-master-ss-rhodium-dial--platinum-bezel-25339--id5746983.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Case diameter': u'40 mm', u'Code': u'25339', u'Ref. No.': u'116622', u'Bracelet color': u'Steel', 'url': 'http://www.chrono24.com/rolex/116622-yacht-master-ss-rhodium-dial--platinum-bezel-25339--id5746983.htm', u'Luminescent Numerals, Luminescent Hands, Chronometer, Rotating Bezel, Screw-Down Crown': u'Luminescent Numerals, Luminescent Hands, Chronometer, Rotating Bezel, Screw-Down Crown', u'Brand': u'Rolex', u'Bracelet material': u'Steel', u'Availability': u'Available now', u'Glass': u'Sapphire Glass', u'Case material': u'Steel', u'Material bezel': u'Platinum', u'Location': u'United States, Massachusetts, Boston', u'Date': u'Date', u'Thickness': u'13 mm', u'Price': u'$9,900', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 20:59:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/day-date-ii-218239--id5601872.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 20:59:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/day-date-ii-218239--id5601872.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Case diameter': u'41 mm', u'Dial': u'Black', u'Code': u'ROLE310959_1', u'Ref. No.': u'218239', u'Waterproof': u'10 ATM', 'url': 'http://www.chrono24.com/rolex/day-date-ii-218239--id5601872.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Bracelet color': u'Silver', u'Availability': u'Available now', u'Clasp': u'Fold clasp', u'Case material': u'White gold', u'Location': u'United States, Pennsylvania, Philadelphia', u'Date': u'Date', u'Price': u'$29,500', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 20:59:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/mens-18k-gold-president--black-82-diamond-dial---18038--id2547985.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 20:59:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/mens-18k-gold-president--black-82-diamond-dial---18038--id2547985.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Ref. No.': u'18038', 'url': 'http://www.chrono24.com/rolex/mens-18k-gold-president--black-82-diamond-dial---18038--id2547985.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Bracelet material': u'Yellow Gold', u'Availability': u'Available now', u'Case material': u'Yellow gold', u'Location': u'United States, California, Los Angeles', u'Price': u'$11,000', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 20:59:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/rolex-watches---gmt-master-ii-yellow-gold--id3957919.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 20:59:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/rolex-watches---gmt-master-ii-yellow-gold--id3957919.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Clasp material': u'Yellow gold', u'Ref. No.': u'116718', u'Bracelet color': u'Yellow', 'url': 'http://www.chrono24.com/rolex/rolex-watches---gmt-master-ii-yellow-gold--id3957919.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Bracelet material': u'Yellow Gold', u'Availability': u'Available now', u'Clasp': u'Double-fold clasp', u'Case material': u'Yellow gold', u'Location': u'United States, New York, New York', u'Year': u'2010 2011 2012 2013 2014', u'Price': u'$21,500', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 20:59:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/datejust-36mm-two-tone-jubilee-band-champaigne-dial--id4831067.htm> (referer: http://www.chrono24.com/Rolex/index.htm) ['partial']
+2017-02-10 20:59:04 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/datejust-36mm-two-tone-jubilee-band-champaigne-dial--id4831067.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Case diameter': u'36 mm', u'Dial': u'Champagne', u'Clasp material': u'Steel', u'Bracelet color': u'Gold/Steel', 'url': 'http://www.chrono24.com/rolex/datejust-36mm-two-tone-jubilee-band-champaigne-dial--id4831067.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Dial numerals': u'No numerals', u'Bracelet material': u'Gold/Steel', u'Availability': u'Available now', u'Clasp': u'Fold clasp', u'Case material': u'Gold/Steel', u'Material bezel': u'Yellow gold', u'Location': u'United States, Florida, Miami', u'Year': u'1975', u'Price': u'$3,300', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 20:59:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/datejust-16014-stainless-steel-1984--id5462671.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 20:59:05 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/datejust-16014-stainless-steel-1984--id5462671.htm>
+defaultdict(<type 'str'>, {u'Dial': u'Silver', u'Price': u'$3,699 [Negotiable]', u'Location': u'United States, New York, New York', u'Chronometer, Quick Set': u'Chronometer, Quick Set', u'Material bezel': u'Gold/Steel', u'Movement': u'Automatic', u'Ref. No.': u'16014', u'Brand': u'Rolex', u'Glass': u'Plexiglass', u'Date': u'Date', u'Clasp': u'Fold clasp', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Steel', u'Case material': u'Steel', u'Bracelet length': u'203 mm', u'Case diameter': u'36 mm', u'Code': u'RX12081611X', u'Bracelet color': u'Steel', 'url': 'http://www.chrono24.com/rolex/datejust-16014-stainless-steel-1984--id5462671.htm', u'Clasp material': u'Steel', u'Condition': u'1 (mint)', u'Year': u'1984', u'Availability': u'Available now'})
+2017-02-10 20:59:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Rolex/index-300.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 20:59:07 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET http://www.chrono24.com/Rolex/index-0.htm> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2017-02-10 20:59:07 [root] INFO: HEADER: [u'', u'Dial', u'Thickness', u'Dial numerals', u'Small Seconds, Luminescent Numerals, Luminescent Hands, Screw-Down Crown, Screw-Down Push-Buttons, Luminous indexes', u'Location', u'Material bezel', u'Movement', u'Ref. No.', u'Waterproof', u'Brand', u'Glass', u'Condition', u'Chronograph', u'Gender', u'Bracelet material', u'Case material', u'Price', u'Case diameter', u'Bracelet color', 'url', u'Movement/Caliber', u'Clasp material', u'Frequency', u'Clasp', u'Year', u'Number of jewels', u'Availability', u'Code', u'Luminescent Numerals, Luminescent Hands, Chronometer, Rotating Bezel, Screw-Down Crown', u'Date', u'Chronometer, Quick Set', u'Bracelet length']
+2017-02-10 20:59:07 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 10041,
+ 'downloader/request_count': 18,
+ 'downloader/request_method_count/GET': 18,
+ 'downloader/response_bytes': 675504,
+ 'downloader/response_count': 18,
+ 'downloader/response_status_count/200': 18,
+ 'dupefilter/filtered': 301,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 2, 10, 20, 59, 7, 188511),
+ 'httpcache/firsthand': 2,
+ 'httpcache/invalidate': 16,
+ 'httpcache/miss': 2,
+ 'httpcache/store': 18,
+ 'item_scraped_count': 7,
+ 'log_count/DEBUG': 27,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 2,
+ 'response_received_count': 18,
+ 'scheduler/dequeued': 18,
+ 'scheduler/dequeued/memory': 18,
+ 'scheduler/enqueued': 3155,
+ 'scheduler/enqueued/memory': 3155,
+ 'start_time': datetime.datetime(2017, 2, 10, 20, 58, 39, 155787)}
+2017-02-10 20:59:07 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2017-02-10 21:23:12 [scrapy.utils.log] INFO: Scrapy 1.3.0 started (bot: watches)
+2017-02-10 21:23:12 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'watches.spiders', 'HTTPCACHE_POLICY': 'scrapy.extensions.httpcache.RFC2616Policy', 'CONCURRENT_REQUESTS_PER_DOMAIN': 1, 'HTTPCACHE_IGNORE_HTTP_CODES': ['403'], 'SPIDER_MODULES': ['watches.spiders'], 'HTTPCACHE_ENABLED': True, 'LOG_FILE': '/home/adrienporter/McNulty/proj3-mcnulty/porter_adrien/watches/watches/logs/scrapy_output5.txt', 'BOT_NAME': 'watches', 'LOG_STDOUT': True, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36', 'HTTPCACHE_DIR': '/home/adrienporter/McNulty/proj3-mcnulty/porter_adrien/watches/watches/httpcache', 'AUTOTHROTTLE_ENABLED': True, 'DOWNLOAD_DELAY': 1}
+2017-02-10 21:23:12 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2017-02-10 21:23:12 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scproxymesh.SimpleProxymeshMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats',
+ 'scrapy.downloadermiddlewares.httpcache.HttpCacheMiddleware']
+2017-02-10 21:23:12 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-02-10 21:23:12 [scrapy.middleware] INFO: Enabled item pipelines:
+['watches.pipelines.CsvWriterPipeline']
+2017-02-10 21:23:12 [scrapy.core.engine] INFO: Spider opened
+2017-02-10 21:23:12 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-02-10 21:23:12 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-02-10 21:23:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Rolex/index.htm> (referer: None)
+2017-02-10 21:23:18 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-02-10 21:23:18 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-02-10 21:23:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Omega/index.htm> (referer: None)
+2017-02-10 21:23:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/IWC/index.htm> (referer: None)
+2017-02-10 21:23:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Breitling/index.htm> (referer: None) ['partial']
+2017-02-10 21:23:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/PatekPhilippe/index.htm> (referer: None)
+2017-02-10 21:23:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/AudemarsPiguet/index.htm> (referer: None)
+2017-02-10 21:23:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Panerai/index.htm> (referer: None)
+2017-02-10 21:23:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/JaegerLeCoultre/index.htm> (referer: None)
+2017-02-10 21:23:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/TagHeuer/index.htm> (referer: None)
+2017-02-10 21:23:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Hublot/index.htm> (referer: None)
+2017-02-10 21:23:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/daytona-2-tone--id5128706.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 21:23:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/daytona-2-tone--id5128706.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Dial': u'Silver', u'Thickness': u'11.2 mm', u'Dial numerals': u'Arabic numerals', u'Small Seconds, Luminescent Numerals, Luminescent Hands, Screw-Down Crown, Screw-Down Push-Buttons, Luminous indexes': u'Small Seconds, Luminescent Numerals, Luminescent Hands, Screw-Down Crown, Screw-Down Push-Buttons, Luminous indexes', u'Location': u'United States, New York, massapequa', u'Material bezel': u'Yellow gold', u'Movement': u'Automatic', u'Ref. No.': u'116523', u'Waterproof': u'10 ATM', u'Brand': u'Rolex', u'Glass': u'Sapphire Glass', u'Condition': u'0 (unworn)', u'Chronograph': u'Chronograph', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Gold/Steel', u'Case material': u'Gold/Steel', u'Price': u'$12,700', u'Case diameter': u'40 mm', u'Bracelet color': u'Gold/Steel', 'url': 'http://www.chrono24.com/rolex/daytona-2-tone--id5128706.htm', u'Movement/Caliber': u'Rolex 4130', u'Clasp material': u'Gold/Steel', u'Frequency': u'28,800 A/h', u'Clasp': u'Fold clasp', u'Year': u'2011', u'Number of jewels': u'44', u'Availability': u'Ready to ship in 3-5 days'})
+2017-02-10 21:23:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/platinum-presidential-10ct-diamond-rolex-day-date-ii-blue-dial-roman-numerals--id5709715.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 21:23:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/platinum-presidential-10ct-diamond-rolex-day-date-ii-blue-dial-roman-numerals--id5709715.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Case diameter': u'40 mm', u'Dial': u'Blue', u'Code': u'132085034049', u'Ref. No.': u'218235', 'url': 'http://www.chrono24.com/rolex/platinum-presidential-10ct-diamond-rolex-day-date-ii-blue-dial-roman-numerals--id5709715.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Bracelet material': u'Platinum', u'Availability': u'Available now', u'Case material': u'Platinum', u'Location': u'United States, New York, New York', u'Date': u'Date', u'Price': u'$84,999', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 21:23:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/116622-yacht-master-ss-rhodium-dial--platinum-bezel-25339--id5746983.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 21:23:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/116622-yacht-master-ss-rhodium-dial--platinum-bezel-25339--id5746983.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Case diameter': u'40 mm', u'Code': u'25339', u'Ref. No.': u'116622', u'Bracelet color': u'Steel', 'url': 'http://www.chrono24.com/rolex/116622-yacht-master-ss-rhodium-dial--platinum-bezel-25339--id5746983.htm', u'Luminescent Numerals, Luminescent Hands, Chronometer, Rotating Bezel, Screw-Down Crown': u'Luminescent Numerals, Luminescent Hands, Chronometer, Rotating Bezel, Screw-Down Crown', u'Brand': u'Rolex', u'Bracelet material': u'Steel', u'Availability': u'Available now', u'Glass': u'Sapphire Glass', u'Case material': u'Steel', u'Material bezel': u'Platinum', u'Location': u'United States, Massachusetts, Boston', u'Date': u'Date', u'Thickness': u'13 mm', u'Price': u'$9,900', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 21:23:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/day-date-ii-218239--id5601872.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 21:23:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/day-date-ii-218239--id5601872.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Case diameter': u'41 mm', u'Dial': u'Black', u'Code': u'ROLE310959_1', u'Ref. No.': u'218239', u'Waterproof': u'10 ATM', 'url': 'http://www.chrono24.com/rolex/day-date-ii-218239--id5601872.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Bracelet color': u'Silver', u'Availability': u'Available now', u'Clasp': u'Fold clasp', u'Case material': u'White gold', u'Location': u'United States, Pennsylvania, Philadelphia', u'Date': u'Date', u'Price': u'$29,500', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 21:23:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/mens-18k-gold-president--black-82-diamond-dial---18038--id2547985.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 21:23:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/mens-18k-gold-president--black-82-diamond-dial---18038--id2547985.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Ref. No.': u'18038', 'url': 'http://www.chrono24.com/rolex/mens-18k-gold-president--black-82-diamond-dial---18038--id2547985.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Bracelet material': u'Yellow Gold', u'Availability': u'Available now', u'Case material': u'Yellow gold', u'Location': u'United States, California, Los Angeles', u'Price': u'$11,000', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 21:23:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/rolex-watches---gmt-master-ii-yellow-gold--id3957919.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 21:23:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/rolex-watches---gmt-master-ii-yellow-gold--id3957919.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Clasp material': u'Yellow gold', u'Ref. No.': u'116718', u'Bracelet color': u'Yellow', 'url': 'http://www.chrono24.com/rolex/rolex-watches---gmt-master-ii-yellow-gold--id3957919.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Bracelet material': u'Yellow Gold', u'Availability': u'Available now', u'Clasp': u'Double-fold clasp', u'Case material': u'Yellow gold', u'Location': u'United States, New York, New York', u'Year': u'2010 2011 2012 2013 2014', u'Price': u'$21,500', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 21:23:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/datejust-36mm-two-tone-jubilee-band-champaigne-dial--id4831067.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 21:23:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/datejust-36mm-two-tone-jubilee-band-champaigne-dial--id4831067.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Case diameter': u'36 mm', u'Dial': u'Champagne', u'Clasp material': u'Steel', u'Bracelet color': u'Gold/Steel', 'url': 'http://www.chrono24.com/rolex/datejust-36mm-two-tone-jubilee-band-champaigne-dial--id4831067.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Dial numerals': u'No numerals', u'Bracelet material': u'Gold/Steel', u'Availability': u'Available now', u'Clasp': u'Fold clasp', u'Case material': u'Gold/Steel', u'Material bezel': u'Yellow gold', u'Location': u'United States, Florida, Miami', u'Year': u'1975', u'Price': u'$3,300', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 21:23:38 [root] INFO: HEADER: [u'', u'Dial', u'Thickness', u'Dial numerals', u'Small Seconds, Luminescent Numerals, Luminescent Hands, Screw-Down Crown, Screw-Down Push-Buttons, Luminous indexes', u'Location', u'Material bezel', u'Movement', u'Ref. No.', u'Waterproof', u'Brand', u'Glass', u'Condition', u'Chronograph', u'Gender', u'Bracelet material', u'Case material', u'Price', u'Case diameter', u'Bracelet color', 'url', u'Movement/Caliber', u'Clasp material', u'Frequency', u'Clasp', u'Year', u'Number of jewels', u'Availability', u'Code', u'Date', u'Luminescent Numerals, Luminescent Hands, Chronometer, Rotating Bezel, Screw-Down Crown']
+2017-02-10 21:23:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 9279,
+ 'downloader/request_count': 17,
+ 'downloader/request_method_count/GET': 17,
+ 'downloader/response_bytes': 634946,
+ 'downloader/response_count': 17,
+ 'downloader/response_status_count/200': 17,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 2, 10, 21, 23, 38, 703745),
+ 'httpcache/invalidate': 17,
+ 'httpcache/store': 17,
+ 'item_scraped_count': 7,
+ 'log_count/DEBUG': 25,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 17,
+ 'scheduler/dequeued': 17,
+ 'scheduler/dequeued/memory': 17,
+ 'scheduler/enqueued': 3126,
+ 'scheduler/enqueued/memory': 3126,
+ 'start_time': datetime.datetime(2017, 2, 10, 21, 23, 12, 291213)}
+2017-02-10 21:23:38 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2017-02-10 22:29:08 [scrapy.utils.log] INFO: Scrapy 1.3.0 started (bot: watches)
+2017-02-10 22:29:08 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'watches.spiders', 'HTTPCACHE_POLICY': 'scrapy.extensions.httpcache.RFC2616Policy', 'CONCURRENT_REQUESTS_PER_DOMAIN': 1, 'HTTPCACHE_IGNORE_HTTP_CODES': ['403'], 'SPIDER_MODULES': ['watches.spiders'], 'HTTPCACHE_ENABLED': True, 'LOG_FILE': '/home/adrienporter/McNulty/proj3-mcnulty/porter_adrien/watches/watches/logs/scrapy_output5.txt', 'BOT_NAME': 'watches', 'LOG_STDOUT': True, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36', 'HTTPCACHE_DIR': '/home/adrienporter/McNulty/proj3-mcnulty/porter_adrien/watches/watches/httpcache', 'AUTOTHROTTLE_ENABLED': True, 'DOWNLOAD_DELAY': 1}
+2017-02-10 22:29:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2017-02-10 22:29:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scproxymesh.SimpleProxymeshMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats',
+ 'scrapy.downloadermiddlewares.httpcache.HttpCacheMiddleware']
+2017-02-10 22:29:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-02-10 22:29:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['watches.pipelines.CsvWriterPipeline']
+2017-02-10 22:29:08 [scrapy.core.engine] INFO: Spider opened
+2017-02-10 22:29:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-02-10 22:29:08 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-02-10 22:29:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Rolex/index.htm> (referer: None)
+2017-02-10 22:29:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Omega/index.htm> (referer: None)
+2017-02-10 22:29:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/IWC/index.htm> (referer: None)
+2017-02-10 22:29:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Breitling/index.htm> (referer: None)
+2017-02-10 22:29:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/PatekPhilippe/index.htm> (referer: None)
+2017-02-10 22:29:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/AudemarsPiguet/index.htm> (referer: None)
+2017-02-10 22:29:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Panerai/index.htm> (referer: None)
+2017-02-10 22:29:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/JaegerLeCoultre/index.htm> (referer: None)
+2017-02-10 22:29:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/TagHeuer/index.htm> (referer: None)
+2017-02-10 22:29:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Hublot/index.htm> (referer: None)
+2017-02-10 22:29:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/daytona-2-tone--id5128706.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 22:29:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/daytona-2-tone--id5128706.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Dial': u'Silver', u'Thickness': u'11.2 mm', u'Dial numerals': u'Arabic numerals', u'Small Seconds, Luminescent Numerals, Luminescent Hands, Screw-Down Crown, Screw-Down Push-Buttons, Luminous indexes': u'Small Seconds, Luminescent Numerals, Luminescent Hands, Screw-Down Crown, Screw-Down Push-Buttons, Luminous indexes', u'Location': u'United States, New York, massapequa', u'Material bezel': u'Yellow gold', u'Movement': u'Automatic', u'Ref. No.': u'116523', u'Waterproof': u'10 ATM', u'Brand': u'Rolex', u'Glass': u'Sapphire Glass', u'Condition': u'0 (unworn)', u'Chronograph': u'Chronograph', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Gold/Steel', u'Case material': u'Gold/Steel', u'Price': u'$12,700', u'Case diameter': u'40 mm', u'Bracelet color': u'Gold/Steel', 'url': 'http://www.chrono24.com/rolex/daytona-2-tone--id5128706.htm', u'Movement/Caliber': u'Rolex 4130', u'Clasp material': u'Gold/Steel', u'Frequency': u'28,800 A/h', u'Clasp': u'Fold clasp', u'Year': u'2011', u'Number of jewels': u'44', u'Availability': u'Ready to ship in 3-5 days'})
+2017-02-10 22:29:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/platinum-presidential-10ct-diamond-rolex-day-date-ii-blue-dial-roman-numerals--id5709715.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 22:29:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/platinum-presidential-10ct-diamond-rolex-day-date-ii-blue-dial-roman-numerals--id5709715.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Case diameter': u'40 mm', u'Dial': u'Blue', u'Code': u'132085034049', u'Ref. No.': u'218235', 'url': 'http://www.chrono24.com/rolex/platinum-presidential-10ct-diamond-rolex-day-date-ii-blue-dial-roman-numerals--id5709715.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Bracelet material': u'Platinum', u'Availability': u'Available now', u'Case material': u'Platinum', u'Location': u'United States, New York, New York', u'Date': u'Date', u'Price': u'$84,999', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 22:29:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/116622-yacht-master-ss-rhodium-dial--platinum-bezel-25339--id5746983.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 22:29:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/116622-yacht-master-ss-rhodium-dial--platinum-bezel-25339--id5746983.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Case diameter': u'40 mm', u'Code': u'25339', u'Ref. No.': u'116622', u'Bracelet color': u'Steel', 'url': 'http://www.chrono24.com/rolex/116622-yacht-master-ss-rhodium-dial--platinum-bezel-25339--id5746983.htm', u'Luminescent Numerals, Luminescent Hands, Chronometer, Rotating Bezel, Screw-Down Crown': u'Luminescent Numerals, Luminescent Hands, Chronometer, Rotating Bezel, Screw-Down Crown', u'Brand': u'Rolex', u'Bracelet material': u'Steel', u'Availability': u'Available now', u'Glass': u'Sapphire Glass', u'Case material': u'Steel', u'Material bezel': u'Platinum', u'Location': u'United States, Massachusetts, Boston', u'Date': u'Date', u'Thickness': u'13 mm', u'Price': u'$9,900', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 22:29:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/day-date-ii-218239--id5601872.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 22:29:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/day-date-ii-218239--id5601872.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Case diameter': u'41 mm', u'Dial': u'Black', u'Code': u'ROLE310959_1', u'Ref. No.': u'218239', u'Waterproof': u'10 ATM', 'url': 'http://www.chrono24.com/rolex/day-date-ii-218239--id5601872.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Bracelet color': u'Silver', u'Availability': u'Available now', u'Clasp': u'Fold clasp', u'Case material': u'White gold', u'Location': u'United States, Pennsylvania, Philadelphia', u'Date': u'Date', u'Price': u'$29,500', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 22:29:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/mens-18k-gold-president--black-82-diamond-dial---18038--id2547985.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 22:29:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/mens-18k-gold-president--black-82-diamond-dial---18038--id2547985.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Ref. No.': u'18038', 'url': 'http://www.chrono24.com/rolex/mens-18k-gold-president--black-82-diamond-dial---18038--id2547985.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Bracelet material': u'Yellow Gold', u'Availability': u'Available now', u'Case material': u'Yellow gold', u'Location': u'United States, California, Los Angeles', u'Price': u'$11,000', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 22:29:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/rolex-watches---gmt-master-ii-yellow-gold--id3957919.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 22:29:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/rolex-watches---gmt-master-ii-yellow-gold--id3957919.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Clasp material': u'Yellow gold', u'Ref. No.': u'116718', u'Bracelet color': u'Yellow', 'url': 'http://www.chrono24.com/rolex/rolex-watches---gmt-master-ii-yellow-gold--id3957919.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Bracelet material': u'Yellow Gold', u'Availability': u'Available now', u'Clasp': u'Double-fold clasp', u'Case material': u'Yellow gold', u'Location': u'United States, New York, New York', u'Year': u'2010 2011 2012 2013 2014', u'Price': u'$21,500', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 22:29:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/datejust-36mm-two-tone-jubilee-band-champaigne-dial--id4831067.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 22:29:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/datejust-36mm-two-tone-jubilee-band-champaigne-dial--id4831067.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Case diameter': u'36 mm', u'Dial': u'Champagne', u'Clasp material': u'Steel', u'Bracelet color': u'Gold/Steel', 'url': 'http://www.chrono24.com/rolex/datejust-36mm-two-tone-jubilee-band-champaigne-dial--id4831067.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Rolex', u'Dial numerals': u'No numerals', u'Bracelet material': u'Gold/Steel', u'Availability': u'Available now', u'Clasp': u'Fold clasp', u'Case material': u'Gold/Steel', u'Material bezel': u'Yellow gold', u'Location': u'United States, Florida, Miami', u'Year': u'1975', u'Price': u'$3,300', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 22:29:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Rolex/index-300.htm> (referer: http://www.chrono24.com/Rolex/index.htm)
+2017-02-10 22:29:35 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET http://www.chrono24.com/Rolex/index-0.htm> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2017-02-10 22:29:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Omega/index-300.htm> (referer: http://www.chrono24.com/Omega/index.htm)
+2017-02-10 22:29:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/IWC/index-300.htm> (referer: http://www.chrono24.com/IWC/index.htm)
+2017-02-10 22:29:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Breitling/index-300.htm> (referer: http://www.chrono24.com/Breitling/index.htm)
+2017-02-10 22:29:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/PatekPhilippe/index-300.htm> (referer: http://www.chrono24.com/PatekPhilippe/index.htm)
+2017-02-10 22:29:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/AudemarsPiguet/index-241.htm> (referer: http://www.chrono24.com/AudemarsPiguet/index.htm)
+2017-02-10 22:29:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Panerai/index-238.htm> (referer: http://www.chrono24.com/Panerai/index.htm)
+2017-02-10 22:29:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/JaegerLeCoultre/index-222.htm> (referer: http://www.chrono24.com/JaegerLeCoultre/index.htm)
+2017-02-10 22:29:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/TagHeuer/index-300.htm> (referer: http://www.chrono24.com/TagHeuer/index.htm)
+2017-02-10 22:29:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Hublot/index-299.htm> (referer: http://www.chrono24.com/Hublot/index.htm)
+2017-02-10 22:29:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Hublot/index-298.htm> (referer: http://www.chrono24.com/Hublot/index.htm)
+2017-02-10 22:29:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Hublot/index-297.htm> (referer: http://www.chrono24.com/Hublot/index.htm)
+2017-02-10 22:29:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Hublot/index-296.htm> (referer: http://www.chrono24.com/Hublot/index.htm)
+2017-02-10 22:29:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Hublot/index-295.htm> (referer: http://www.chrono24.com/Hublot/index.htm)
+2017-02-10 22:29:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Hublot/index-294.htm> (referer: http://www.chrono24.com/Hublot/index.htm)
+2017-02-10 22:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Hublot/index-293.htm> (referer: http://www.chrono24.com/Hublot/index.htm)
+2017-02-10 22:29:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/Hublot/index-292.htm> (referer: http://www.chrono24.com/Hublot/index.htm)
+2017-02-10 22:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/rolex/submariner-stainless-steel-black-dial-circa-1980-ref-16800--id2984218.htm> (referer: http://www.chrono24.com/Rolex/index-300.htm)
+2017-02-10 22:29:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/rolex/submariner-stainless-steel-black-dial-circa-1980-ref-16800--id2984218.htm>
+defaultdict(<type 'str'>, {u'Dial': u'Black', u'Thickness': u'13 mm', u'Location': u'United States, New York, New York', u'Luminescent Numerals, Luminescent Hands, Rotating Bezel, Screw-Down Crown': u'Luminescent Numerals, Luminescent Hands, Rotating Bezel, Screw-Down Crown', u'Material bezel': u'Steel', u'Movement': u'Automatic', u'Ref. No.': u'16800', u'Brand': u'Rolex', u'Glass': u'Sapphire Glass', u'Date': u'Date', u'Clasp': u'Fold clasp', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Steel', u'Case material': u'Steel', u'Price': u'$4,975', u'Case diameter': u'40 x 47 mm', u'Code': u'9191', u'Bracelet color': u'Steel', 'url': 'http://www.chrono24.com/rolex/submariner-stainless-steel-black-dial-circa-1980-ref-16800--id2984218.htm', u'Clasp material': u'Steel', u'Condition': u'1 (mint)', u'Year': u'1980', u'Availability': u'Available now'})
+2017-02-10 22:29:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/omega/constellation-date-automatic-goldhaube-von-1964-box-und-papiere--id4537984.htm> (referer: http://www.chrono24.com/Omega/index-300.htm)
+2017-02-10 22:29:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/omega/constellation-date-automatic-goldhaube-von-1964-box-und-papiere--id4537984.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Case diameter': u'33 x 41 mm', u'Dial': u'Gold', u'Code': u'4846', 'url': 'http://www.chrono24.com/omega/constellation-date-automatic-goldhaube-von-1964-box-und-papiere--id4537984.htm', u'Movement/Caliber': u'1001', u'Brand': u'Omega', u'Only Original Parts': u'Only Original Parts', u'Bracelet material': u'Leather', u'Case material': u'Gold/Steel', u'Location': u'Germany, Berlin/Potsdam/N\xfcrnberg/M\xfcnchen', u'Year': u'1964', u'Availability': u'Available now', u'Condition': u'1 (mint)', u'Movement': u'Automatic'})
+2017-02-10 22:29:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/iwc/portofino-handaufzug-grossdatum--id3162875.htm> (referer: http://www.chrono24.com/IWC/index-300.htm)
+2017-02-10 22:29:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/iwc/portofino-handaufzug-grossdatum--id3162875.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Dial': u'Silver', u'Thickness': u'13 mm', u'Dial numerals': u'Arabic numerals', u'Location': u'Germany, N\xfcrnberg', u'Material bezel': u'Red gold', u'Movement': u'Manual winding', u'Ref. No.': u'IW516102', u'Waterproof': u'3 ATM', u'Brand': u'IWC', u'Glass': u'Sapphire Glass', u'Small Seconds, Power Reserve Display': u'Small Seconds, Power Reserve Display', u'Date': u'Date', u'Condition': u'0 (unworn)', u'Power reserve': u'192 h', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Crocodile skin', u'Case material': u'Red gold', u'Case diameter': u'45 mm', u'Bracelet color': u'Brown', 'url': 'http://www.chrono24.com/iwc/portofino-handaufzug-grossdatum--id3162875.htm', u'Movement/Caliber': u'59230', u'Clasp material': u'Red gold', u'Frequency': u'28800 A/h', u'Clasp': u'Buckle', u'Year': u'2017', u'Number of jewels': u'30', u'Availability': u'Ready to ship in 6-10 days'})
+2017-02-10 22:29:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/breitling/galactic-36-sleekt-ladies-watch--id4670649.htm> (referer: http://www.chrono24.com/Breitling/index-300.htm)
+2017-02-10 22:29:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/breitling/galactic-36-sleekt-ladies-watch--id4670649.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Ref. No.': u'W7433012/A779/376A', 'url': 'http://www.chrono24.com/breitling/galactic-36-sleekt-ladies-watch--id4670649.htm', u'Gender': u"Ladies' watch", u'Brand': u'Breitling', u'Bracelet material': u'Steel', u'Case material': u'Steel', u'Location': u'United Kingdom, London', u'Year': u'2016', u'Availability': u'Available now', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/patekphilippe/nautilus-40th-anniversary-limited-edition---57111p-001--id5674606.htm> (referer: http://www.chrono24.com/PatekPhilippe/index-300.htm)
+2017-02-10 22:30:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/patekphilippe/nautilus-40th-anniversary-limited-edition---57111p-001--id5674606.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Dial': u'White', u'Price': u'price on request', u'Dial numerals': u'No numerals', u'Location': u'Germany, Pforzheim', u'Material bezel': u'Steel', u'Movement': u'Automatic', u'Ref. No.': u'5711/1P-001', u'Waterproof': u'3 ATM', u'Brand': u'Patek Philippe', u'Glass': u'Sapphire Glass', u'Date': u'Date', u'Clasp': u'Fold clasp', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Platinum', u'Case material': u'Platinum', u'Case diameter': u'40 mm', u'Code': u'5711/1P-001', 'url': 'http://www.chrono24.com/patekphilippe/nautilus-40th-anniversary-limited-edition---57111p-001--id5674606.htm', u'Clasp material': u'Platinum', u'Condition': u'0 (unworn)', u'Year': u'2017', u'Availability': u'Available now', u'Center Seconds': u'Center Seconds'})
+2017-02-10 22:30:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/audemarspiguet/ap-royal-oak---quartz---33mm--id5243233.htm> (referer: http://www.chrono24.com/AudemarsPiguet/index-241.htm)
+2017-02-10 22:30:02 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/audemarspiguet/ap-royal-oak---quartz---33mm--id5243233.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Ref. No.': u'AP RO', 'url': 'http://www.chrono24.com/audemarspiguet/ap-royal-oak---quartz---33mm--id5243233.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Audemars Piguet', u'Bracelet material': u'Steel', u'Case material': u'Steel', u'Location': u'Indonesia, Indonesia', u'Year': u'1988', u'Availability': u'Ready to ship in 3-5 days', u'Condition': u'1 (mint)', u'Movement': u'Quartz'})
+2017-02-10 22:30:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/panerai/panerai-radiomir--id4479767.htm> (referer: http://www.chrono24.com/Panerai/index-238.htm)
+2017-02-10 22:30:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/panerai/panerai-radiomir--id4479767.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Ref. No.': u'PAM00609', 'url': 'http://www.chrono24.com/panerai/panerai-radiomir--id4479767.htm', u'Brand': u'Panerai', u'Bracelet material': u'Leather', u'Case material': u'Steel', u'Location': u'Hong Kong SAR, TST,Kowloon', u'Availability': u'On request', u'Condition': u'0 (unworn)', u'Movement': u'Manual winding'})
+2017-02-10 22:30:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/jaegerlecoultre/q1278420--id4337490.htm> (referer: http://www.chrono24.com/JaegerLeCoultre/index-222.htm)
+2017-02-10 22:30:05 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/jaegerlecoultre/q1278420--id4337490.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Display Back, Small Seconds': u'Display Back, Small Seconds', u'Dial': u'Silver', u'Thickness': u'7.6 mm', u'Location': u'Hong Kong SAR, TST,Kowloon', u'Material bezel': u'Steel', u'Movement': u'Automatic', u'Ref. No.': u'Q1278420', u'Waterproof': u'5 ATM', u'Brand': u'Jaeger-LeCoultre', u'Glass': u'Sapphire Glass', u'Clasp': u'Buckle', u'Power reserve': u'43 h', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Crocodile skin', u'Case material': u'Steel', u'Case diameter': u'38.5 mm', u'Bracelet color': u'Black', 'url': 'http://www.chrono24.com/jaegerlecoultre/q1278420--id4337490.htm', u'Movement/Caliber': u'896', u'Condition': u'0 (unworn)', u'Availability': u'On request'})
+2017-02-10 22:30:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/tagheuer/--tag-heuer-carrera-1887-chronographe-rose-gold--id5326904.htm> (referer: http://www.chrono24.com/TagHeuer/index-300.htm)
+2017-02-10 22:30:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/tagheuer/--tag-heuer-carrera-1887-chronographe-rose-gold--id5326904.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Case diameter': u'41 mm', u'Code': u'3384', u'Ref. No.': u'CAR2141.FC8182', u'Waterproof': u'10 ATM', 'url': 'http://www.chrono24.com/tagheuer/--tag-heuer-carrera-1887-chronographe-rose-gold--id5326904.htm', u'Brand': u'TAG Heuer', u'Chronograph, Date': u'Chronograph, Date', u'Bracelet material': u'Crocodile skin', u'Glass': u'Sapphire Glass', u'Case material': u'Pink gold', u'Location': u'Italy, Torino', u'Year': u'2016', u'Availability': u'Ready to ship in 6-10 days', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/classic-fusion-ceramic-blue--id5707993.htm> (referer: http://www.chrono24.com/Hublot/index-299.htm)
+2017-02-10 22:30:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/classic-fusion-ceramic-blue--id5707993.htm>
+defaultdict(<type 'str'>, {u'': u'With papers', u'Case diameter': u'45 mm', u'Ref. No.': u'521.CM.7170.LR', u'Chronograph': u'Chronograph', 'url': 'http://www.chrono24.com/hublot/classic-fusion-ceramic-blue--id5707993.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Hublot', u'Only Original Parts': u'Only Original Parts', u'Bracelet material': u'Crocodile skin', u'Case material': u'Ceramic', u'Location': u'Switzerland, Freienbach/Z\xfcrich', u'Year': u'2017', u'Availability': u'On request', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/classic-fusion--id4239315.htm> (referer: http://www.chrono24.com/Hublot/index-298.htm)
+2017-02-10 22:30:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/classic-fusion--id4239315.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Dial': u'Silver', u'Price': u'$25,560', u'Location': u'United States, New York, Brooklyn NY', u'Movement': u'Automatic', u'Ref. No.': u'542.OX.2610.OX', u'Waterproof': u'5 ATM', u'Brand': u'Hublot', u'Glass': u'Sapphire Glass', u'Date': u'Date', u'Clasp': u'Fold clasp', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Pink Gold', u'Case material': u'Pink gold', u'Case diameter': u'42 mm', u'Code': u'HB542OX2610OX', u'Bracelet color': u'Gold', 'url': 'http://www.chrono24.com/hublot/classic-fusion--id4239315.htm', u'Movement/Caliber': u'HUB1110', u'Condition': u'0 (unworn)', u'Availability': u'On request', u'Display Back': u'Display Back'})
+2017-02-10 22:30:08 [scrapy.extensions.logstats] INFO: Crawled 45 pages (at 45 pages/min), scraped 18 items (at 18 items/min)
+2017-02-10 22:30:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/big-bang--id4404356.htm> (referer: http://www.chrono24.com/Hublot/index-297.htm)
+2017-02-10 22:30:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/big-bang--id4404356.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Thickness': u'14.5 mm', u'Location': u'United States, New York, Brooklyn NY', u'Movement': u'Automatic', u'Ref. No.': u'320.UI.440.RX', u'Waterproof': u'10 ATM', u'Brand': u'Hublot', u'Glass': u'Sapphire Glass', u'Clasp': u'Buckle', u'Luminescent Hands, Limited Edition': u'Luminescent Hands, Limited Edition', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Rubber', u'Case material': u'Titanium', u'Price': u'$23,128', u'Case diameter': u'44 mm', u'Code': u'HB320UI440RX', u'Bracelet color': u'Black', 'url': 'http://www.chrono24.com/hublot/big-bang--id4404356.htm', u'Movement/Caliber': u'HUB4000', u'Condition': u'0 (unworn)', u'Chronograph, Annual calendar': u'Chronograph, Annual calendar', u'Availability': u'On request'})
+2017-02-10 22:30:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/classic-fusion-classico-ultra-thin--id4366130.htm> (referer: http://www.chrono24.com/Hublot/index-296.htm)
+2017-02-10 22:30:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/classic-fusion-classico-ultra-thin--id4366130.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Movement/Caliber': u'HUB1300.4', u'Skeletonized, Display Back': u'Skeletonized, Display Back', u'Code': u'HB515NX0170LR0904', u'Case diameter': u'45 mm', u'Ref. No.': u'515.NX.0170.LR.0904', u'Waterproof': u'5 ATM', 'url': 'http://www.chrono24.com/hublot/classic-fusion-classico-ultra-thin--id4366130.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Hublot', u'Bracelet material': u'Crocodile skin', u'Availability': u'On request', u'Clasp': u'Fold clasp', u'Glass': u'Sapphire Glass', u'Case material': u'Titanium', u'Location': u'United States, New York, Brooklyn NY', u'Price': u'$58,608', u'Condition': u'0 (unworn)', u'Movement': u'Manual winding'})
+2017-02-10 22:30:12 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-02-10 22:30:12 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-02-10 22:30:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/king-power-unico--id4299888.htm> (referer: http://www.chrono24.com/Hublot/index-295.htm)
+2017-02-10 22:30:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/king-power-unico--id4299888.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Dial': u'Black', u'Price': u'$23,904', u'Location': u'United States, New York, Brooklyn NY', u'Chronograph, Date, GMT': u'Chronograph, Date, GMT', u'Movement': u'Automatic', u'Ref. No.': u'771.QX.1179.RX.CSH13', u'Waterproof': u'10 ATM', u'Brand': u'Hublot', u'Glass': u'Sapphire Glass', u'Clasp': u'Buckle', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Rubber', u'Case material': u'Carbon', u'Case diameter': u'48 mm', u'Luminescent Hands, Limited Edition, Screw-Down Crown': u'Luminescent Hands, Limited Edition, Screw-Down Crown', u'Code': u'HB771QX1179RXCSH13', u'Bracelet color': u'Black', 'url': 'http://www.chrono24.com/hublot/king-power-unico--id4299888.htm', u'Movement/Caliber': u'HUB1220', u'Condition': u'0 (unworn)', u'Availability': u'On request'})
+2017-02-10 22:30:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/big-bang-king-red-black-ceramic-dial-black-ceramic-mens-sports-watch--id4399380.htm> (referer: http://www.chrono24.com/Hublot/index-294.htm)
+2017-02-10 22:30:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/big-bang-king-red-black-ceramic-dial-black-ceramic-mens-sports-watch--id4399380.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Dial': u'Black', u'Price': u'$16,056', u'Dial numerals': u'Arabic numerals', u'Location': u'United States, New York, Brooklyn NY', u'Movement': u'Automatic', u'Ref. No.': u'411.CI.1190.LR.ABR14', u'Waterproof': u'10 ATM', u'Brand': u'Hublot', u'Glass': u'Sapphire Glass', u'Chronograph, Flyback, Date': u'Chronograph, Flyback, Date', u'Condition': u'0 (unworn)', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Leather', u'Case material': u'Ceramic', u'Case diameter': u'45.5 mm', u'Code': u'HB411CI1190LRABR14', u'Bracelet color': u'Black', u'Luminescent Hands, Screw-Down Crown': u'Luminescent Hands, Screw-Down Crown', u'Movement/Caliber': u'HUB1242', 'url': 'http://www.chrono24.com/hublot/big-bang-king-red-black-ceramic-dial-black-ceramic-mens-sports-watch--id4399380.htm', u'Availability': u'On request'})
+2017-02-10 22:30:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/big-bang--id4417192.htm> (referer: http://www.chrono24.com/Hublot/index-293.htm)
+2017-02-10 22:30:15 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/big-bang--id4417192.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Movement/Caliber': u'HUB4100', u'Dial': u'Brown', u'Code': u'HB341CC3190RC', u'Case diameter': u'41 mm', u'Ref. No.': u'341.CC.3190.RC', u'Bracelet color': u'Brown', 'url': 'http://www.chrono24.com/hublot/big-bang--id4417192.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Hublot', u'Chronograph, Date': u'Chronograph, Date', u'Bracelet material': u'Rubber', u'Availability': u'On request', u'Clasp': u'Fold clasp', u'Glass': u'Sapphire Glass', u'Case material': u'Ceramic', u'Location': u'United States, New York, Brooklyn NY', u'Price': u'$10,921', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/big-bang-jeans--id4552875.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/big-bang-jeans--id4552875.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Dial': u'Blue', u'Price': u'$23,452', u'Location': u'United States, New York, Brooklyn NY', u'Movement': u'Automatic', u'Ref. No.': u'341.SX.2710.NR.1901.JEANS', u'Waterproof': u'10 ATM', u'Brand': u'Hublot', u'Glass': u'Sapphire Glass', u'Screw-Down Crown': u'Screw-Down Crown', u'Clasp': u'Fold clasp', u'Power reserve': u'42 h', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Textile', u'Case material': u'White gold', u'Case diameter': u'41 mm', u'Code': u'HB341SX2710NR1901JE', u'Bracelet color': u'Blue', 'url': 'http://www.chrono24.com/hublot/big-bang-jeans--id4552875.htm', u'Chronograph, Date': u'Chronograph, Date', u'Movement/Caliber': u'HUB4300', u'Condition': u'0 (unworn)', u'Availability': u'On request'})
+2017-02-10 22:30:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/big-bang-pop-art--id4224156.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/big-bang-pop-art--id4224156.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Dial': u'Blue', u'Price': u'$17,136', u'Dial numerals': u'Arabic numerals', u'Location': u'United States, New York, Brooklyn NY', u'Movement': u'Automatic', u'Ref. No.': u'341.SV.5199.LR.1905POP14', u'Waterproof': u'10 ATM', u'Brand': u'Hublot', u'Glass': u'Sapphire Glass', u'Clasp': u'Fold clasp', u'Luminescent Hands, Limited Edition': u'Luminescent Hands, Limited Edition', u'Gender': u"Ladies' watch", u'Bracelet material': u'Leather', u'Case material': u'Steel', u'Case diameter': u'41 mm', u'Code': u'HB341SV5199LR1905POP', u'Bracelet color': u'Purple', 'url': 'http://www.chrono24.com/hublot/big-bang-pop-art--id4224156.htm', u'Chronograph, Date': u'Chronograph, Date', u'Movement/Caliber': u'HUB4300', u'Condition': u'0 (unworn)', u'Availability': u'On request'})
+2017-02-10 22:30:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/classic-fusion--id4366109.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:18 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/classic-fusion--id4366109.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Movement/Caliber': u'HUB1143', u'Dial': u'Silver', u'Code': u'HB521OX2611OX', u'Case diameter': u'45 mm', u'Ref. No.': u'521.OX.2611.OX', u'Waterproof': u'5 ATM', 'url': 'http://www.chrono24.com/hublot/classic-fusion--id4366109.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Hublot', u'Bracelet color': u'Gold', u'Chronograph, Date': u'Chronograph, Date', u'Bracelet material': u'Pink Gold', u'Availability': u'On request', u'Glass': u'Sapphire Glass', u'Case material': u'Pink gold', u'Location': u'United States, New York, Brooklyn NY', u'Skeletonized, Display Back': u'Skeletonized, Display Back', u'Price': u'$31,752', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/big-bang-broderie-18k-yellow-gold-diamond-set-limited-edition-ladies-watch--id4239074.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/big-bang-broderie-18k-yellow-gold-diamond-set-limited-edition-ladies-watch--id4239074.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Case diameter': u'41 mm', u'Code': u'HB343VX6580NR0804', u'Ref. No.': u'343.VX.6580.NR.0804', u'Bracelet color': u'Gold', 'url': 'http://www.chrono24.com/hublot/big-bang-broderie-18k-yellow-gold-diamond-set-limited-edition-ladies-watch--id4239074.htm', u'Gender': u"Ladies' watch", u'Brand': u'Hublot', u'Movement/Caliber': u'HUB1110', u'Availability': u'On request', u'Clasp': u'Fold clasp', u'Glass': u'Sapphire Glass', u'Case material': u'Yellow gold', u'Location': u'United States, New York, Brooklyn NY', u'Skeletonized, Display Back, Limited Edition': u'Skeletonized, Display Back, Limited Edition', u'Price': u'$25,704', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/classic-fusion--id4366117.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/classic-fusion--id4366117.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Movement/Caliber': u'HUB1143', u'Dial': u'Black', u'Code': u'HB521CM1771CM', u'Case diameter': u'45 mm', u'Ref. No.': u'521.CM.1771.CM', u'Waterproof': u'5 ATM', 'url': 'http://www.chrono24.com/hublot/classic-fusion--id4366117.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Hublot', u'Bracelet color': u'Black', u'Chronograph, Date': u'Chronograph, Date', u'Bracelet material': u'Ceramic', u'Availability': u'On request', u'Glass': u'Sapphire Glass', u'Case material': u'Ceramic', u'Location': u'United States, New York, Brooklyn NY', u'Skeletonized, Display Back': u'Skeletonized, Display Back', u'Price': u'$10,512', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/classic-fusion--id4366141.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/classic-fusion--id4366141.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Movement/Caliber': u'HUB1143', u'Dial': u'Black', u'Code': u'HB521OX1181LR1704', u'Case diameter': u'45 mm', u'Ref. No.': u'521.OX.1181.LR.1704', u'Waterproof': u'5 ATM', 'url': 'http://www.chrono24.com/hublot/classic-fusion--id4366141.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Hublot', u'Chronograph, Date': u'Chronograph, Date', u'Bracelet material': u'Crocodile skin', u'Availability': u'On request', u'Clasp': u'Fold clasp', u'Glass': u'Sapphire Glass', u'Case material': u'Titanium', u'Location': u'United States, New York, Brooklyn NY', u'Skeletonized, Display Back': u'Skeletonized, Display Back', u'Price': u'$33,192', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/big-bang-gold-linen-natural-gold-black-diamond-dial-limited-edition-ladies-watch--id4239082.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/big-bang-gold-linen-natural-gold-black-diamond-dial-limited-edition-ladies-watch--id4239082.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Movement/Caliber': u'HUB4300', u'Dial': u'Black', u'Code': u'HB341XN1280NR1204', u'Case diameter': u'41 mm', u'Ref. No.': u'341.XN.1280.NR.1204', 'url': 'http://www.chrono24.com/hublot/big-bang-gold-linen-natural-gold-black-diamond-dial-limited-edition-ladies-watch--id4239082.htm', u'Gender': u"Ladies' watch", u'Brand': u'Hublot', u'Bracelet material': u'Textile', u'Availability': u'On request', u'Clasp': u'Fold clasp', u'Glass': u'Sapphire Glass', u'Chronograph, Date': u'Chronograph, Date', u'Limited Edition': u'Limited Edition', u'Location': u'United States, New York, Brooklyn NY', u'Price': u'$21,395', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/big-bang--id5099810.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/big-bang--id5099810.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Dial': u'Black', u'Price': u'$31,392', u'Location': u'United States, New York, Brooklyn NY', u'Movement': u'Automatic', u'Ref. No.': u'301.PX.1180.GR.1104', u'Waterproof': u'10 ATM', u'Brand': u'Hublot', u'Glass': u'Sapphire Glass', u'Luminescent Numerals, Luminescent Hands, Luminous indexes': u'Luminescent Numerals, Luminescent Hands, Luminous indexes', u'Clasp': u'Fold clasp', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Rubber', u'Chronograph, Date': u'Chronograph, Date', u'Case diameter': u'44.5 mm', u'Code': u'HB301PX1180GR1104', u'Bracelet color': u'Black', 'url': 'http://www.chrono24.com/hublot/big-bang--id5099810.htm', u'Case material': u'Pink gold', u'Movement/Caliber': u'HUB4100', u'Condition': u'0 (unworn)', u'Availability': u'On request'})
+2017-02-10 22:30:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/arturo-fuentes-brown-dial-chronograph-brown-leather-strap-mens-watch--id4239111.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm) ['partial']
+2017-02-10 22:30:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/arturo-fuentes-brown-dial-chronograph-brown-leather-strap-mens-watch--id4239111.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Movement/Caliber': u'HUB4100', u'Dial': u'Brown', u'Code': u'HB703CI3113HROPX12', u'Case diameter': u'48 mm', u'Ref. No.': u'703.CI.3113.HR.OPX12', u'Waterproof': u'10 ATM', 'url': 'http://www.chrono24.com/hublot/arturo-fuentes-brown-dial-chronograph-brown-leather-strap-mens-watch--id4239111.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Hublot', u'Bracelet color': u'Brown', u'Chronograph, Date': u'Chronograph, Date', u'Bracelet material': u'Leather', u'Availability': u'On request', u'Clasp': u'Fold clasp', u'Glass': u'Sapphire Glass', u'Case material': u'Ceramic', u'Location': u'United States, New York, Brooklyn NY', u'Price': u'$20,400', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/big-bang-aero-bang--id4602788.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/big-bang-aero-bang--id4602788.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Dial': u'Black', u'Thickness': u'14 mm', u'Location': u'United States, New York, Brooklyn NY', u'Movement': u'Automatic', u'Ref. No.': u'311.QX.1124.RX', u'Waterproof': u'10 ATM', u'Brand': u'Hublot', u'Glass': u'Sapphire Glass', u'Luminescent Numerals, Luminescent Hands, Luminous indexes': u'Luminescent Numerals, Luminescent Hands, Luminous indexes', u'Condition': u'0 (unworn)', u'Gender': u"Men's watch/Unisex", u'Bracelet material': u'Rubber', u'Chronograph, Date': u'Chronograph, Date', u'Price': u'$17,064', u'Case diameter': u'44 mm', u'Code': u'HB311QX1124RX', u'Bracelet color': u'Black', 'url': 'http://www.chrono24.com/hublot/big-bang-aero-bang--id4602788.htm', u'Case material': u'Ceramic', u'Movement/Caliber': u'HUB4214', u'Availability': u'On request'})
+2017-02-10 22:30:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/classic-fusion-tourbillon-skeleton-black-skull-carat-dial-skeleton-mens-sports-watch--id5323802.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/classic-fusion-tourbillon-skeleton-black-skull-carat-dial-skeleton-mens-sports-watch--id5323802.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Movement/Caliber': u'HUB6014', u'Code': u'HB505UC0140LR1900SKU', u'Skeletonized, Display Back, Luminescent Hands': u'Skeletonized, Display Back, Luminescent Hands', u'Case diameter': u'45 mm', u'Ref. No.': u'505.UC.0140.LR.1900.SKULL', u'Waterproof': u'3 ATM', 'url': 'http://www.chrono24.com/hublot/classic-fusion-tourbillon-skeleton-black-skull-carat-dial-skeleton-mens-sports-watch--id5323802.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Hublot', u'Bracelet color': u'Black', u'Dial numerals': u'Roman numerals', u'Bracelet material': u'Leather', u'Availability': u'On request', u'Clasp': u'Fold clasp', u'Glass': u'Sapphire Glass', u'Case material': u'Ceramic', u'Location': u'United States, New York, Brooklyn NY', u'Price': u'$107,280', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/classic-fusion--id4375801.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/classic-fusion--id4375801.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Movement/Caliber': u'HUB1110', u'Dial': u'Black', u'Code': u'HB565OX1181LR', u'Case diameter': u'38 mm', u'Ref. No.': u'565.OX.1181.LR', u'Waterproof': u'5 ATM', 'url': 'http://www.chrono24.com/hublot/classic-fusion--id4375801.htm', u'Gender': u"Men's watch/Unisex", u'Brand': u'Hublot', u'Skeletonized, Display Back': u'Skeletonized, Display Back', u'Bracelet material': u'Crocodile skin', u'Availability': u'On request', u'Clasp': u'Fold clasp', u'Glass': u'Sapphire Glass', u'Case material': u'Pink gold', u'Location': u'United States, New York, Brooklyn NY', u'Date': u'Date', u'Price': u'$12,816', u'Condition': u'0 (unworn)', u'Movement': u'Automatic'})
+2017-02-10 22:30:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chrono24.com/hublot/big-bang-quartz-steel-38mm-dial-white-quartz-ladies-watch--id4527385.htm> (referer: http://www.chrono24.com/Hublot/index-292.htm)
+2017-02-10 22:30:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.chrono24.com/hublot/big-bang-quartz-steel-38mm-dial-white-quartz-ladies-watch--id4527385.htm>
+defaultdict(<type 'str'>, {u'': u'With box', u'Case diameter': u'38 mm', u'Dial': u'White', u'Code': u'HB361SE2010RW1704', u'Ref. No.': u'361.SE.2010.RW.1704', u'Waterproof': u'10 ATM', 'url': 'http://www.chrono24.com/hublot/big-bang-quartz-steel-38mm-dial-white-quartz-ladies-watch--id4527385.htm', u'Gender': u"Ladies' watch", u'Brand': u'Hublot', u'Bracelet color': u'White', u'Luminescent Hands': u'Luminescent Hands', u'Dial numerals': u'Arabic numerals', u'Bracelet material': u'Rubber', u'Availability': u'On request', u'Clasp': u'Fold clasp', u'Glass': u'Sapphire Glass', u'Case material': u'Steel', u'Location': u'United States, New York, Brooklyn NY', u'Price': u'$12,456', u'Condition': u'0 (unworn)', u'Movement': u'Quartz'})
+2017-02-10 22:30:30 [root] INFO: HEADER: [u'', u'Dial', u'Thickness', u'Dial numerals', u'Small Seconds, Luminescent Numerals, Luminescent Hands, Screw-Down Crown, Screw-Down Push-Buttons, Luminous indexes', u'Location', u'Material bezel', u'Movement', u'Ref. No.', u'Waterproof', u'Brand', u'Glass', u'Condition', u'Chronograph', u'Gender', u'Bracelet material', u'Case material', u'Price', u'Case diameter', u'Bracelet color', 'url', u'Movement/Caliber', u'Clasp material', u'Frequency', u'Clasp', u'Year', u'Number of jewels', u'Availability', u'Code', u'Date', u'Luminescent Numerals, Luminescent Hands, Chronometer, Rotating Bezel, Screw-Down Crown', u'Luminescent Numerals, Luminescent Hands, Rotating Bezel, Screw-Down Crown', u'Only Original Parts', u'Small Seconds, Power Reserve Display', u'Power reserve', u'Center Seconds', u'Display Back, Small Seconds', u'Chronograph, Date', u'Display Back', u'Luminescent Hands, Limited Edition', u'Chronograph, Annual calendar', u'Skeletonized, Display Back', u'Chronograph, Date, GMT', u'Luminescent Hands, Limited Edition, Screw-Down Crown', u'Chronograph, Flyback, Date', u'Luminescent Hands, Screw-Down Crown', u'Screw-Down Crown', u'Skeletonized, Display Back, Limited Edition', u'Limited Edition', u'Luminescent Numerals, Luminescent Hands, Luminous indexes', u'Skeletonized, Display Back, Luminescent Hands', u'Luminescent Hands']
+2017-02-10 22:30:30 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/defer.py", line 651, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/adrienporter/McNulty/proj3-mcnulty/porter_adrien/watches/watches/pipelines.py", line 26, in close_spider
+    csvWriter.writerow(item)
+  File "/usr/lib/python2.7/csv.py", line 152, in writerow
+    return self.writer.writerow(self._dict_to_list(rowdict))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xfc' in position 25: ordinal not in range(128)
+2017-02-10 22:30:30 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 47894,
+ 'downloader/request_count': 63,
+ 'downloader/request_method_count/GET': 63,
+ 'downloader/response_bytes': 1913848,
+ 'downloader/response_count': 63,
+ 'downloader/response_status_count/200': 63,
+ 'dupefilter/filtered': 3304,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2017, 2, 10, 22, 30, 30, 686983),
+ 'httpcache/firsthand': 8,
+ 'httpcache/invalidate': 55,
+ 'httpcache/miss': 8,
+ 'httpcache/store': 63,
+ 'item_scraped_count': 36,
+ 'log_count/DEBUG': 101,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 2,
+ 'response_received_count': 63,
+ 'scheduler/dequeued': 63,
+ 'scheduler/dequeued/memory': 63,
+ 'scheduler/enqueued': 3558,
+ 'scheduler/enqueued/memory': 3558,
+ 'start_time': datetime.datetime(2017, 2, 10, 22, 29, 8, 834499)}
+2017-02-10 22:30:30 [scrapy.core.engine] INFO: Spider closed (shutdown)

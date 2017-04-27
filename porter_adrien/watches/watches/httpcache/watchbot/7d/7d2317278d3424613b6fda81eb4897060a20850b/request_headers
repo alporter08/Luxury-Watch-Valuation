@@ -1,7 +1,0 @@
-Accept-Language: en
-Accept-Encoding: gzip,deflate
-X-Proxymesh-Timeout: 60
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36
-Referer: http://www.chrono24.com/TagHeuer/index-288.htm
-Cookie: userHistory=5735228|1486596153707; last-search-result-ids="3083731,4406053,3083453,3045539,4618464,5473516,3210573,4618287,3080330,5473428,2683450,3083534,3939164,2934963,3083517,4618447,3809349,4618471,3061913,5717966,4618250,3750174,2683963,5718075,4622172,4622233,3539152,2751025,4618559,3369543"; chronosessid=ffa7e706-d1ce-4bf5-9130-e1de56b03538; isNotFirstAlertRequest=true; cookieHintShown=true; hideChangeDomainHintCount=2
