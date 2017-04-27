@@ -1,7 +1,0 @@
-Accept-Language: en
-Accept-Encoding: gzip,deflate
-X-Proxymesh-Timeout: 60
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36
-Referer: http://www.chrono24.com/IWC/index-100.htm
-Cookie: userHistory=4831067|1486484315587; last-search-result-ids="4998605,4995784,5002310,4999820,4992761,5651755,4992961,4992801,4993593,4995776,4996814,4993543,4992705,5658750,4995315,5658734,5002476,4999218,4993746,4992753,4991958,4992729,4997105,5002500,5000775,5000146,4996362,4995594,5651763,5001762"; chronosessid=93a0e3b1-8d68-41af-afb2-6d61768ae458; isNotFirstAlertRequest=true; cookieHintShown=true; hideChangeDomainHintCount=2

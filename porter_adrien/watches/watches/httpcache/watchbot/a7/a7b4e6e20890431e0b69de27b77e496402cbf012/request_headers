@@ -1,7 +1,0 @@
-Accept-Language: en
-Accept-Encoding: gzip,deflate
-X-Proxymesh-Timeout: 60
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36
-Referer: http://www.chrono24.com/Rolex/index.htm
-Cookie: isNotFirstAlertRequest=true; chronosessid=bf626609-9ddd-46fa-bef4-17aacaac96ac; hideChangeDomainHintCount=1; last-search-result-ids="4506451,3746649,5434750,4831548,4721060,4281756,4412412,5641700,5631734,5463875,5271964,5659485,5654329,4845138,4281766,5732661,4560674,5583754,5701593,5462669,2883510,5674417,5334543,5175503,5707792,5607799,5683899,5370889,5343883,5344294"; cookieHintShown=true

@@ -1,7 +1,0 @@
-Accept-Language: en
-Accept-Encoding: gzip,deflate
-X-Proxymesh-Timeout: 60
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36
-Referer: http://www.chrono24.com/Omega/index.htm
-Cookie: isNotFirstAlertRequest=true; chronosessid=485869d2-8400-444a-a7ff-7eaf4d914644; hideChangeDomainHintCount=1; last-search-result-ids="5453755,5023296,4896619,5724580,5410147,5545185,2236329,4501648,4522583,5023184,4741392,5334259,5724571,2877378,5702620,2101651,4639692,5396452,4653855,5461867,3731196,5660129,4766415,5250020,5023475,5662740,5660180,4650128,5424661,4962587"; cookieHintShown=true
