@@ -33,7 +33,7 @@ class WatchbotSpider(scrapy.Spider):
             if last_page_int > max_pages:
                 last_page_int = max_pages
 
-            for i in range(201, last_page_int + 1):
+            for i in range(last_page_int + 1):
                 i = str(i)
                 url_stub = 'index-{}.htm'.format(i)
                 next_page = response.urljoin(url_stub)

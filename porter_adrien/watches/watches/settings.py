@@ -85,13 +85,14 @@ AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
 HTTPCACHE_ENABLED = True
 #HTTPCACHE_EXPIRATION_SECS = 0
-HTTPCACHE_DIR = '/home/adrienporter/McNulty/porter_adrien/watches/watches/httpcache'
+HTTPCACHE_DIR = '/home/adrienporter/McNulty/proj3-mcnulty/porter_adrien/watches/watches/httpcache'
 HTTPCACHE_POLICY = 'scrapy.extensions.httpcache.RFC2616Policy'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+HTTPCACHE_IGNORE_HTTP_CODES = ['403']
 
-FEED_URI = '/home/adrienporter/McNulty/porter_adrien/watches/watches/watchbot_output/%(name)s--%(time)s.csv'
-FEED_FORMAT = 'csv'
+#FEED_URI = '/home/adrienporter/McNulty/proj3-mcnulty/porter_adrien/watches/watches/watchbot_output/%(name)s--%(time)s.csv'
+#FEED_FORMAT = 'csv'
 
 
 # https://github.com/mizhgun/scrapy-proxymesh/blob/master/README.md
@@ -105,4 +106,10 @@ PROXYMESH_URL = 'http://fr.proxymesh.com:31280'
 PROXYMESH_TIMEOUT = 60
 
 LOG_STDOUT = True
-LOG_FILE = '/home/adrienporter/McNulty/porter_adrien/watches/watches/logs/scrapy_output2.txt'
+LOG_FILE = '/home/adrienporter/McNulty/proj3-mcnulty/porter_adrien/watches/watches/logs/scrapy_output6.txt'
+
+ITEM_PIPELINES = {
+    'watches.pipelines.CsvWriterPipeline': 300,
+}
+
+csv_file_path = '/home/adrienporter/McNulty/proj3-mcnulty/porter_adrien/watches/watches/watchbot_output/%s_%s.csv'
